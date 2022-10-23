@@ -1,0 +1,11 @@
+@use "../abstracts" as a;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: a.$primaryFont;
+  background-color: var(--bg-darkness);
+  color: var(--txt-white);
+}
