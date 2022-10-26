@@ -1,11 +1,11 @@
-@use "../abstracts" as a;
+@use "../utils" as u;
 
 html {
   font-size: 100%;
 }
 
 body {
-  font-family: a.$primaryFont;
+  font-family: u.$primaryFont;
   background-color: var(--bg-darkness);
   color: var(--txt-white);
 }
